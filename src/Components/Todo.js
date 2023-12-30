@@ -4,8 +4,7 @@ const Todo = ({todoitem,todolist,setTodoList}) =>
 {
     const deleteTodo=()=>
     {
-        setTodoList(todolist.filter((item)=>item.id !== todoitem.id))
-        
+        setTodoList(todolist.filter((item)=>item.id !== todoitem.id))  
     }
     return (
     <div>
